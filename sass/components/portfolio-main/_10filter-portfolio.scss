@@ -17,7 +17,7 @@
   background-color: map-get($colors, "button-color");
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
-  letter-spacing: 0.03em;
+  letter-spacing: $main-font-spacing;
   cursor: pointer;
   transition-property: color, background-color, box-shadow;
   transition-duration: 250ms;
@@ -32,10 +32,11 @@
 }
 .button-portf {
   display: inline-block;
-  font-family: "Roboto500", sans-serif;
+  font-family: $primary-font;
+  font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  letter-spacing: 0.03px;
+  letter-spacing: 0.03em;
 }
 .main {
   padding-top: 94px;

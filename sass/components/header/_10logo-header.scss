@@ -4,9 +4,8 @@ header {
 .logo-web,
 .logo-studio,
 .logo-studiotwo {
-  font-family: "Raleway";
-  /* font-family: Raleway, sans-serif;*/
-  letter-spacing: 0.03em;
+  letter-spacing: $main-font-spacing;
+  font-family: $logo-font;
 }
 .logo-web {
   font-size: 26px;

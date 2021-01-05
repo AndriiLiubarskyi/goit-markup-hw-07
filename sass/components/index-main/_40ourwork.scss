@@ -4,9 +4,10 @@
   margin-bottom: 0;
   padding: 0;
   font-size: 36px;
-  font-family: "Roboto700";
+  font-family: $primary-font;
+  font-weight: 700;
   color: map-get($colors, "primary-text-color");
-  letter-spacing: 0.03em;
+  letter-spacing: $main-font-spacing;
 }
 .headtwo-div {
   padding-top: 0;
@@ -17,7 +18,8 @@
   margin-top: 0;
   margin-bottom: 0;
   font-size: 36px;
-  font-family: "Roboto700";
+  font-family: $primary-font;
+  font-weight: 700;
   color: map-get($colors, "primary-text-color");
 }
 .ourwork {
@@ -42,12 +44,13 @@
   width: 100%;
   height: 70px;
   bottom: 0;
-  font-family: "Roboto700";
+  font-family: $primary-font;
+  font-weight: 700;
   font-style: normal;
   font-size: 14px;
   line-height: 16px;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: $main-font-spacing;
   text-transform: uppercase;
   color: map-get($colors, "logo-accent-footer");
   background-color: rgba(47, 48, 58, 0.8);

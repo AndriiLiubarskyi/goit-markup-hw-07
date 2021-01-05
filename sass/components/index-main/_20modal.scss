@@ -72,7 +72,8 @@ textarea {
 }
 .form label {
   margin-bottom: 4px;
-  font-family: "Roboto400";
+  font-family: $primary-font;
+  font-weight: 400;
   font-style: normal;
   font-size: 12px;
   line-height: 14px;
@@ -131,7 +132,8 @@ textarea {
   border-radius: 2px;
 }
 .text {
-  font-family: "Roboto400";
+  font-family: $primary-font;
+  font-weight: 400;
   font-style: normal;
   font-size: 12px;
   line-height: 14px;
@@ -159,11 +161,12 @@ textarea {
 }
 .check {
   display: block;
-  font-family: "Roboto400";
+  font-family: $primary-font;
+  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.03em;
+  letter-spacing: $main-font-spacing;
   color: map-get($colors, "secondary-text-color");
 }
 .check a {
@@ -180,7 +183,8 @@ textarea {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: none;
-  font-family: "Roboto700";
+  font-family: $primary-font;
+  font-weight: 700;
   font-style: normal;
   font-size: 16px;
   line-height: 30px;
@@ -188,7 +192,7 @@ textarea {
   display: block;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.06em;
+  letter-spacing: $button-font-spacing;
   color: map-get($colors, "logo-accent-footer");
   margin-left: auto;
   margin-right: auto;
@@ -199,12 +203,13 @@ textarea {
   background-color: map-get($colors, "accent-two-color");
 }
 .modal p {
-  font-family: "Roboto700";
+  font-family: $primary-font;
+  font-weight: 700;
   font-style: normal;
   font-size: 20px;
   line-height: 23px;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: $main-font-spacing;
   color: map-get($colors, "primary-text-color");
   margin: 0;
 }

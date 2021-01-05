@@ -10,11 +10,12 @@
 }
 .regular-customers {
   display: block;
-  font-family: "Roboto700";
+  font-family: $primary-font;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   text-align: center;
-  letter-spacing: 0.03em;
+  letter-spacing: $main-font-spacing;
   color: map-get($colors, "primary-text-color");
   margin-bottom: 50px;
   margin-top: 0;

@@ -10,7 +10,7 @@
   padding-bottom: 0;
   flex-wrap: wrap;
   margin-bottom: 0;
-  letter-spacing: 0.03em;
+  letter-spacing: $main-font-spacing;
 }
 .people .item {
   border-radius: 0 0 4px 4px;
@@ -38,8 +38,9 @@
 .people h3 {
   text-align: center;
   font-size: 16px;
-  font-family: "Roboto500";
-  letter-spacing: 0.03em;
+  font-family: $primary-font;
+  font-weight: 500;
+  letter-spacing: $main-font-spacing;
   color: map-get($colors, "primary-text-color");
   margin-top: 0;
   margin-bottom: 0;
@@ -47,8 +48,9 @@
 .people p {
   text-align: center;
   font-size: 16px;
-  font-family: "Roboto400";
-  letter-spacing: 0.03em;
+  font-family: $primary-font;
+  font-weight: 400;
+  letter-spacing: $main-font-spacing;
   color: map-get($colors, "secondary-text-color");
   margin-top: 10px;
   margin-bottom: 16px;

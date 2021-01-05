@@ -1,5 +1,5 @@
-@import "./utils/variables";
 @import "./base/_normalize";
+@import "./utils/variables";
 @import "./base/_html";
 @import "./utils/_placeholders";
 @import "./utils/_mixins";
@@ -16,5 +16,4 @@
 @import "./components/portfolio-main/20portfolio";
 @import "./components/footer/10logo";
 @import "./components/footer/20address";
-@import "./components/footer/30socials-listf";
 @import "./components/footer/40subscribe";
